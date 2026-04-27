@@ -13,3 +13,23 @@ in this lesson, we're finally going to start writing some code. We'll be buildin
 Imagine you have some memecoin-type coin called TOKEN. We want to attach our hook into ETH <> TOKEN pools. Our goal is to incentivize swappers to buy TOKEN in exchange for ETH. This incentivization happens through the hook issuing second POINTS tokens when desired actions occur. For simplicity, we'll set some basic rules and assumptions:
 
 When a swap takes place which buys TOKEN for ETH - we will issue POINTS equivalent to 20% of the ETH amount swapped in to the user.
+
+## Tests
+
+- unit
+- fuzz
+- forkTests
+
+## Deployed to:
+
+- Anvil
+- Sepolia - plus verified on sepolia etherscan
+
+## How to Run
+
+forge build  
+forge test
+
+## How to deploy to Sepolia testnet
+
+forge script script/PointsHook.s.sol:PointsHookScript --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --verify
