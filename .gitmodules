@@ -1,0 +1,3 @@
+[submodule "hook-02-gas-price-dynamic-fees-hook/lib/forge-std"]
+	path = hook-02-gas-price-dynamic-fees-hook/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
