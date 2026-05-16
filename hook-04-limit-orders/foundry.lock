@@ -1,5 +1,8 @@
 {
   "../hook-02-gas-price-dynamic-fees-hook/lib/forge-std": {
     "rev": "8987040ede9553cea20c95ad40d0455930f9c8e0"
+  },
+  "lib/v4-hooks-public": {
+    "rev": "b53aa1d80efc82c1df6632daa14d0fce14616c8e"
   }
 }
